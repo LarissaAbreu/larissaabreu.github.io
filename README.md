@@ -14,4 +14,4 @@ Quer contrinuir? [Siga essas recomendações](https://github.com/LarissaAbreu/my
 
 ## Licença
 
-[Licença MIT](https://github.com/LarissaAbreu/my-app/blob/master/LICENSE.md) © [Afonso Pacifer](http://afonsopacifer.com/)
+[Licença MIT](https://github.com/LarissaAbreu/my-app/blob/master/LICENSE.md) © [Afonso Pacifer](http://afonsopacifer.github.io/)
