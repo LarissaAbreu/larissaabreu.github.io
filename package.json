@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "> Site para compartilhar talks, conteúdos e informações sobre mim :)",
   "main": "index.js",
   "scripts": {
