@@ -1,0 +1,22 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "> Site para compartilhar talks, conteúdos e informações sobre mim :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LarissaAbreu/my-app.git"
+  },
+  "author": "Larissa Abreu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LarissaAbreu/my-app/issues"
+  },
+  "homepage": "https://github.com/LarissaAbreu/my-app#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
