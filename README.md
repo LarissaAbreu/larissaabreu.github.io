@@ -8,6 +8,28 @@
 - Ferramenta de template HTML: [Pug](https://pugjs.org/api/getting-started.html)
 - Pré-processador CSS: [Stylus](http://stylus-lang.com/)
 
+## Rodando o projeto localmente
+
+**1 -** Prepare o ambiente:
+
+```sh
+$ npm install -g gulp-cli
+```
+
+**2 -** Clone o projeto e installe as dependêcias:
+
+```sh
+$ git clone https://github.com/LarissaAbreu/my-app.git
+$ cd my-app
+$ npm install
+```
+
+**3 -** Rode o servidor estático com livereload:
+
+```sh
+$ gulp server
+```
+
 ## Estrutura de pastas
 
     .
@@ -36,6 +58,11 @@
       ├── projects.json
       ├── .editorconfig
       └── .gitignore
+
+## Tarefas automatizadas
+
+- `$ gulp build`: Compila, concatena e minifica todos os arquivos.
+- `$ gulp server`: Escuta os arquivos buildados e inicia um servidor estático.
 
 ## Versionamento
 

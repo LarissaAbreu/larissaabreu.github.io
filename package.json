@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/LarissaAbreu/my-app#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.5.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-stylus": "^2.7.0"
   }
 }
