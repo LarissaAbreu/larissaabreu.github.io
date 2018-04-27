@@ -1,42 +1,4 @@
-doctype html
-html(lang="pt-br")
-  head
-    //- Metas
-    meta(name="viewport" content="width=device-width, minimun-scale=1.0, maximun-scale=1.0")
-    meta(charset="utf-8")
+extends ./layouts/default.pug
 
-    - var title = "Larissa Abreu"
-    - var description = "Larissa Abreu - site pessoal com projetos e talks"
-
-    //- SEO
-    meta(name="description" content=description)
-    meta(name="robots" content="index,follow")
-    title=title
-
-    //- Open Graph
-    meta(property="og:type" content="website")
-    meta(property="og:title" content=title)
-    meta(property="og:description" content=description)
-    meta(property="og:url" content="https://larissaabreu.github.io")
-    meta(property="og:image" content="https://larissaabreu.github.io/assets/img/share.png")
-
-    //- Twitter Cards
-    meta(name="twitter:card" content="sumary_large_image")
-    meta(name="twitter:title" content=title)
-    meta(name="twitter:description" content=description)
-    meta(name="twitter:url" content="https://larissaabreu.github.io")
-    meta(name="twitter:card" content="https://larissaabreu.github.io/assets/img/share.png")
-
-    //- Styles
-    link(rel="stylesheet" href="assets/styles/style.css")
-    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css")
-
-    //- Fonts
-    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Roboto")
-
-  body
-    header header
-    main main
-    footer footer
-
-    script(type="text/javascript" src="assets/scripts/script.js" async)
+block content
+  div Ola mundo
