@@ -1,26 +1,13 @@
-/* Colors */
-/* Box model */
-* {
-  box-sizing: border-box;
-}
-/* Dev mode */
-.container {
-  border: 1px dashed #000;
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  margin: 0 auto;
-  max-width: 800px;
-}
-/* Partials */
 .header {
-  background-color: #f06;
+  background-color: highlight-color;
   width: 100%;
 }
+
 .menu {
   align-items: center;
   display: flex;
 }
+
 @media screen and (max-width: 400px) {
   .menu {
     justify-content: center;
@@ -29,25 +16,30 @@
     width: 100%;
   }
 }
-.menu-itens {
+
+.menu-itens{
   display: inline-block;
   margin-bottom: 0;
   margin-top: 0;
   padding-left: 0;
 }
+
 .menu-item {
   display: inline-block;
   list-style: none;
 }
+
 .menu-link {
   color: #fff;
   display: inline-block;
   padding: 10px;
   text-decoration: none;
 }
+
 .profile {
   margin-left: auto;
 }
+
 @media screen and (max-width: 400px) {
   .profile {
     margin: 10px 0;
@@ -56,11 +48,13 @@
     width: 100%;
   }
 }
+
 .profile-img {
   border-radius: 50%;
   margin: 5px;
   vertical-align: middle;
 }
+
 .profile-text {
   color: #fff;
   display: inline-block;
