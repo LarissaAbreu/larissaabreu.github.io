@@ -1,25 +1,9 @@
-/* Colors */
-highlight-color = #ff0066
-secondary-color = #212121
-bg-color = #333
-
-/* Box model */
-* {
-  box-sizing: border-box;
-}
-
-/* Dev mode */
-border()
-  border: 1px dashed #000;
-
-.container {
-  border();
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  margin: 0 auto;
-  max-width: 800px;
-}
-
-/* Partials */
-@import 'partials/header.styl';
+@import 'modules/theme.styl';
+@import 'modules/global.styl';
+@import 'modules/profile.styl';
+@import 'modules/projects.styl';
+@import 'modules/texts.styl';
+@import 'modules/container.styl';
+@import 'modules/header.styl';
+@import 'modules/footer.styl';
+@import 'modules/icons.styl';

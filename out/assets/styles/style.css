@@ -1,9 +1,90 @@
-/* Colors */
-/* Box model */
 * {
   box-sizing: border-box;
 }
-/* Dev mode */
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  font-weight: 300;
+}
+.profile {
+  width: 100%;
+  max-width: 500px;
+}
+.profile-img {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 200px;
+}
+.projects {
+  width: 100%;
+}
+.projects-list {
+  border: 1px dashed #000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.projects-list .heading-lv1 {
+  margin: 10px;
+}
+.project {
+  border: 1px dashed #000;
+  width: calc(50% - 10px);
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 5px;
+}
+@media (max-width: 500px) {
+  .project {
+    width: 100%;
+  }
+}
+.project-name {
+  color: #212121;
+  margin: 0;
+  font-weight: 300;
+}
+.project-star {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.projects-star-count {
+  color: #212121;
+  margin-left: 5px;
+}
+.project-description {
+  color: #212121;
+  width: 100%;
+  margin: 10px 0 0 0;
+}
+.heading-lv1 {
+  color: #fff;
+  font-family: 'Lobster', cursive;
+  font-size: 42px;
+  margin: 5px;
+  width: calc(100% - 10px);
+}
+.paragraph {
+  color: #fff;
+}
+.main {
+  flex: 1;
+}
+.container-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 .container {
   border: 1px dashed #000;
   display: flex;
@@ -12,7 +93,6 @@
   margin: 0 auto;
   max-width: 800px;
 }
-/* Partials */
 .header {
   background-color: #f06;
   width: 100%;
@@ -35,7 +115,7 @@
   margin-top: 0;
   padding-left: 0;
 }
-.menu-item {
+.menu-itens__menu-item {
   display: inline-block;
   list-style: none;
 }
@@ -45,24 +125,32 @@
   padding: 10px;
   text-decoration: none;
 }
-.profile {
+.profile-header {
   margin-left: auto;
 }
 @media screen and (max-width: 400px) {
-  .profile {
+  .profile-header {
     margin: 10px 0;
     order: 1;
     text-align: center;
     width: 100%;
   }
 }
-.profile-img {
+.profile-header-img {
   border-radius: 50%;
   margin: 5px;
   vertical-align: middle;
 }
-.profile-text {
+.profile-header-text {
   color: #fff;
   display: inline-block;
   margin: 5px;
+}
+.footer {
+  height: 40px;
+  background-color: #212121;
+}
+.star-icon,
+.heart-icon {
+  fill: #f06;
 }
