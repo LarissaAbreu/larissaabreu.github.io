@@ -2,7 +2,7 @@
 
 > Site para compartilhar talks, conteúdos e informações sobre mim :)
 
-[![Build Status](https://travis-ci.org/LarissaAbreu/my-app/branches)](https://travis-ci.org/LarissaAbreu/my-app)
+[![Travis CI Status](https://travis-ci.org/LarissaAbreu/my-app.svg?branch=master)](https://travis-ci.org/LarissaAbreu/my-app)
 
 ## Stack
 
