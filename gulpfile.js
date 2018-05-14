@@ -70,9 +70,7 @@ gulp.task('serve', () => {
 
 gulp.task('deploy', () => {
   gulp.src('./out/**/*')
-      .pipe(ghPages({
-        branch: "master"
-      }));
+      .pipe(ghPages());
 });
 
 gulp.task('build', ['pug', 'stylint', 'stylus', 'imagemin', 'lint', 'babel']);
