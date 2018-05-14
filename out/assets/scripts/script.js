@@ -1,3 +1,3 @@
 'use strict';
 
-console.log('demo');
+console.log('teste reload');

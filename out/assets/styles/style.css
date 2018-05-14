@@ -66,9 +66,13 @@ body {
   margin: 10px 0 0 0;
   width: 100%;
 }
+@font-face {
+  font-family: 'Karmatic';
+  src: url("../fonts/karmatic.ttf");
+}
 .heading-lv1 {
   color: #fff;
-  font-family: 'Lobster', cursive;
+  font-family: 'Karmatic', cursive;
   font-size: 42px;
   margin: 5px;
   width: calc(100% - 10px);
@@ -82,8 +86,12 @@ body {
 .container-centered {
   align-items: center;
   display: flex;
+  height: 100%;
   justify-content: center;
   text-align: center;
+}
+.flipped {
+  height: 100%;
 }
 .container {
   border: 1px dashed #000;

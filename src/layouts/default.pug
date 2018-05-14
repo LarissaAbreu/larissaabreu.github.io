@@ -33,13 +33,16 @@ html(lang="pt-br")
 
     //- Fonts
     link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Roboto:300,400")
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P")
 
-  body
+  body(data-senna)
   
     include ./../partials/header.pug
 
-    block content
+    main(data-senna-surface)#content.main
+      block content
     
     include ./../partials/footer.pug
 
+    script(type="text/javascript" src="https://cdn.jsdelivr.net/senna.js/2.1.5/senna-min.js")
     script(type="text/javascript" src="assets/scripts/script.js" async)

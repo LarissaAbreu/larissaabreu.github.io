@@ -28,5 +28,8 @@
     "gulp-pug": "^4.0.1",
     "gulp-stylint": "^4.0.2",
     "gulp-stylus": "^2.7.0"
+  },
+  "dependencies": {
+    "senna": "^2.5.4"
   }
 }
