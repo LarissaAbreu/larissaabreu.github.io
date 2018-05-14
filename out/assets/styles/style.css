@@ -24,7 +24,7 @@ body {
   width: 100%;
 }
 .projects-list {
-  border: 1px dashed #000;
+  border: 0px dashed #000;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -35,7 +35,7 @@ body {
 }
 .project {
   background-color: #fff;
-  border: 1px dashed #000;
+  border: 0px dashed #000;
   display: flex;
   flex-wrap: wrap;
   margin: 5px;
@@ -94,7 +94,7 @@ body {
   height: 100%;
 }
 .container {
-  border: 1px dashed #000;
+  border: 0px dashed #000;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
