@@ -6,19 +6,19 @@ body {
   height: 100%;
 }
 body {
+  background-color: #333;
   display: flex;
   flex-direction: column;
-  background-color: #333;
   font-weight: 300;
 }
 .profile {
-  width: 100%;
   max-width: 500px;
+  width: 100%;
 }
 .profile-img {
   border-radius: 50%;
-  width: 100%;
   max-width: 200px;
+  width: 100%;
 }
 .projects {
   width: 100%;
@@ -34,13 +34,13 @@ body {
   margin: 10px;
 }
 .project {
-  border: 1px dashed #000;
-  width: calc(50% - 10px);
   background-color: #fff;
+  border: 1px dashed #000;
   display: flex;
   flex-wrap: wrap;
-  padding: 10px;
   margin: 5px;
+  padding: 10px;
+  width: calc(50% - 10px);
 }
 @media (max-width: 500px) {
   .project {
@@ -49,12 +49,12 @@ body {
 }
 .project-name {
   color: #212121;
-  margin: 0;
   font-weight: 300;
+  margin: 0;
 }
 .project-star {
-  display: flex;
   align-items: center;
+  display: flex;
   margin-left: auto;
 }
 .projects-star-count {
@@ -63,8 +63,8 @@ body {
 }
 .project-description {
   color: #212121;
-  width: 100%;
   margin: 10px 0 0 0;
+  width: 100%;
 }
 .heading-lv1 {
   color: #fff;
@@ -80,18 +80,18 @@ body {
   flex: 1;
 }
 .container-centered {
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
   text-align: center;
 }
 .container {
   border: 1px dashed #000;
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
   margin: 0 auto;
   max-width: 800px;
+  width: 100%;
 }
 .header {
   background-color: #f06;
@@ -147,8 +147,8 @@ body {
   margin: 5px;
 }
 .footer {
-  height: 40px;
   background-color: #212121;
+  height: 40px;
 }
 .star-icon,
 .heart-icon {

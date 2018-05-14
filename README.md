@@ -7,6 +7,7 @@
 - Automatizador de tarefas: [Gulp](http://gulpjs.com)
 - Ferramenta de template HTML: [Pug](https://pugjs.org/api/getting-started.html)
 - Pré-processador CSS: [Stylus](http://stylus-lang.com/)
+- JS Transpiler: [Babel](https://babeljs.io/)
 
 ## Rodando o projeto localmente
 
