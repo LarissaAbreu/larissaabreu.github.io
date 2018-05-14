@@ -68,10 +68,11 @@ gulp.task('serve', () => {
   });
 });
 
-gulp.task('deploy', () => {
+gulp.task('ghpages', () => {
   gulp.src('./out/**/*')
-      .pipe(ghPages());
+      .pipe(ghPages({branch: 'master'}));
 });
 
+gulp.task('deploy', ['build', 'ghpages']);
 gulp.task('build', ['pug', 'stylint', 'stylus', 'imagemin', 'lint', 'babel']);
 gulp.task('server', ['serve', 'watch']);

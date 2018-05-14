@@ -67,6 +67,7 @@ $ gulp server
 
 - `$ gulp build`: Compila, concatena e minifica todos os arquivos.
 - `$ gulp server`: Escuta os arquivos buildados e inicia um servidor estático.
+- `$ gulp deploy`: Faz um deploy para a branch master.
 
 ## Versionamento
 
