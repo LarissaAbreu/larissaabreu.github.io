@@ -2,6 +2,8 @@
 
 > Site para compartilhar talks, conteúdos e informações sobre mim :)
 
+[![Build Status](https://travis-ci.org/LarissaAbreu/my-app/branches)](https://travis-ci.org/LarissaAbreu/my-app)
+
 ## Stack
 
 - Automatizador de tarefas: [Gulp](http://gulpjs.com)
