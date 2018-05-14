@@ -7,3 +7,4 @@ Desktop.ini
 # NodeJS
 node_modules/
 npm-debug.log
+.publish/
