@@ -3,6 +3,7 @@
 > Site para compartilhar talks, conteúdos e informações sobre mim :)
 
 [![Travis CI Status](https://travis-ci.org/LarissaAbreu/my-app.svg?branch=master)](https://travis-ci.org/LarissaAbreu/my-app)
+[![devDependencies Status](https://david-dm.org/LarissaAbreu/my-app/dev-status.svg)](https://david-dm.org/LarissaAbreu/my-app?type=dev)
 
 ## Stack
 
