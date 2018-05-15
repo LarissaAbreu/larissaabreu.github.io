@@ -5,8 +5,8 @@
 .mario-map {
   align-items: flex-end;
   background-image: url('../img/mario-map.png');
+  background-position: 0 0;
   background-repeat: repeat-x;
-  background-position: 0px 0px;
   display: flex;
   height: 88px;
   justify-content: space-around;
@@ -26,10 +26,10 @@
 
 @keyframes run {
   from {
-    transform: translateX(-30px)
+    transform: translateX(-30px);
   }
   to {
-    transform: translateX(30px)
+    transform: translateX(30px);
   }
 }
 
@@ -45,10 +45,10 @@
 
 @keyframes jump {
   from {
-    transform: translateY(0px)
+    transform: translateY(0px);
   }
   to {
-    transform: translateY(-30px)
+    transform: translateY(-30px);
   }
 }
 
@@ -75,9 +75,9 @@
 }
 
 .lari-credits--heart:before {
-  content: "";
   background-color: highlight-color;
   border-radius: 50%;
+  content: "";
   height: 10px;
   left: 50%;
   position: absolute;
