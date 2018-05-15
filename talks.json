@@ -1,0 +1,37 @@
+{
+  "talks":[
+    {
+      "event": "Front in Campinas",
+      "name": "A magia dos componentes nativos independente de frameworks",
+      "attendance": "≈ 200",
+      "local": "Hotel Vitória Concept - Campinas - SP",
+      "date": "Mai 12 2018",
+      "slides": "http://bit.ly/componentes-nativos-independente-de-frameworks",
+      "video": ""
+    },
+    {
+      "event": "#10 Frontend SP Meetup",
+      "name": "Front-enders e o teste filosofal",
+      "attendance": "≈ 40",
+      "local": "Moip - São Paulo - SP",
+      "date": "Mar 29 2018",
+      "slides": "https://speakerdeck.com/larissaabreu/front-enders-e-o-teste-filosofal"
+    },
+    {
+      "event": "Tech talk (intern)",
+      "name": "Defesa contra as artes das trevas - Github",
+      "attendance": "≈ 10",
+      "local": "Valle Sistemas - São Paulo - SP",
+      "date": "Mar 08 2018",
+      "slides": "https://speakerdeck.com/larissaabreu/defesa-contra-as-artes-das-trevas-github"
+    },
+    {
+      "event": "HTML SP #11",
+      "name": "A magia dos componentes nativos",
+      "attendance": "≈ 20",
+      "local": "Hi Platform - São Paulo - SP",
+      "date": "Jan 31 2018",
+      "slides": "https://speakerdeck.com/larissaabreu/a-magia-dos-componentes-nativos"
+    }
+  ]
+}

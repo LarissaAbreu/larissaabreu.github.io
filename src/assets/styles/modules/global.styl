@@ -1,6 +1,11 @@
 /* Dev mode */
 border()
-  border: 0px dashed #000;
+  border: 0 dashed white;
+
+@font-face {
+  font-family: 'Karmatic';
+  src: url('../fonts/karmatic.ttf');
+}
 
 /* Box model */
 * {
@@ -13,6 +18,7 @@ html, body {
 
 body {
   background-color: bg-color;
+  color: text-color;
   display: flex;
   flex-direction: column;
   font-weight: 300;

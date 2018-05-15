@@ -1,0 +1,21 @@
+extends ./layouts/default.pug
+
+block content
+  div.container
+    div.talks
+      section.talks-list
+        h1.heading-lv1 Talks
+
+        for talk in talks
+          article.talk
+            h2.talk-event=talk.event
+            div.talk-date=talk.date
+            p.talk-details
+              |#{span=talk.name}<br>
+              |Attendance: #{span=talk.attendance}<br>
+              |#{span=talk.local}
+            div
+              if talk.slides
+                a(href=talk.slides target="_blank" class="lari-btn") Slides
+              if talk.video
+                a(href=talk.video target="_blank" class="lari-btn") Video

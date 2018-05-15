@@ -1,65 +1,54 @@
 // Header container
 .header {
-  background-color: highlight-color;
+  margin-bottom: 30px;
   width: 100%;
 }
 
 // Menu
-.menu {
-  align-items: center;
-  display: flex;
+.lari-nav {
+  font-family: 'Press Start 2P', cursive;
+  margin: 0 auto;
+  max-width: 900px;
+  width: 100%;
 }
 
-@media screen and (max-width: 400px) {
-  .menu {
+.lari-menu {
+  align-items: center;
+  background-image: url('../img/cloud.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+  margin: 0;
+  padding-left: 0;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .lari-menu {
     justify-content: center;
-    margin: 10px 0;
-    order: 2;
-    width: 100%;
   }
 }
 
-.menu-itens {
-  display: inline-block;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding-left: 0;
-}
-
-.menu-itens__menu-item {
-  display: inline-block;
+.lari-menu__item {
   list-style: none;
 }
 
-.menu-link {
-  color: #fff;
-  display: inline-block;
-  padding: 10px;
+.lari-menu__item__link {
+  background: bg-color;
+  color: text-color;
+  font-size: 10px;
+  margin-right: 4px;
+  padding: 8px;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
-// Profile
-.profile-header {
-  margin-left: auto;
+.lari-menu__item__link:hover {
+  color: highlight-color;
 }
 
-@media screen and (max-width: 400px) {
-  .profile-header {
-    margin: 10px 0;
-    order: 1;
-    text-align: center;
-    width: 100%;
-  }
-}
-
-.profile-header-img {
-  border-radius: 50%;
-  margin: 5px;
-  vertical-align: middle;
-}
-
-.profile-header-text {
-  color: #fff;
-  display: inline-block;
-  margin: 5px;
+.lari-menu__item__link:focus {
+  outline: 2px dashed text-color;
 }

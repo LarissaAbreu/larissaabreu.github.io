@@ -5,8 +5,10 @@ html(lang="pt-br")
     meta(name="viewport" content="width=device-width, minimun-scale=1.0, maximun-scale=1.0")
     meta(charset="utf-8")
 
-    - var title = "Larissa Abreu"
+    - var title = "Larissa Abreu | Front-end developer"
     - var description = "Larissa Abreu - site pessoal com projetos e talks"
+
+    link(rel="shortcut icon" href="favicon.png")
 
     //- SEO
     meta(name="description" content=description)
@@ -18,14 +20,14 @@ html(lang="pt-br")
     meta(property="og:title" content=title)
     meta(property="og:description" content=description)
     meta(property="og:url" content="https://larissaabreu.github.io")
-    meta(property="og:image" content="https://larissaabreu.github.io/assets/img/share.png")
+    meta(property="og:image" content="https://larissaabreu.github.io/assets/img/larissa-perfil-1x.jpg")
 
     //- Twitter Cards
     meta(name="twitter:card" content="sumary_large_image")
     meta(name="twitter:title" content=title)
     meta(name="twitter:description" content=description)
     meta(name="twitter:url" content="https://larissaabreu.github.io")
-    meta(name="twitter:card" content="https://larissaabreu.github.io/assets/img/share.png")
+    meta(name="twitter:card" content="https://larissaabreu.github.io/assets/img/larissa-perfil-1x.jpg")
 
     //- Styles
     link(rel="stylesheet" href="assets/styles/style.css")
@@ -46,3 +48,5 @@ html(lang="pt-br")
 
     script(type="text/javascript" src="https://cdn.jsdelivr.net/senna.js/2.1.5/senna-min.js")
     script(type="text/javascript" src="assets/scripts/script.js" async)
+
+    include ./../partials/analytics.html

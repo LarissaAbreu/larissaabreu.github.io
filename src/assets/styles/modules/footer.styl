@@ -1,4 +1,95 @@
 .footer {
+  height: calc(40px + 88px);
+}
+
+.mario-map {
+  border: 1px solid #fff;
+  width: 100%;
+  height: 88px;
+  display: flex;
+  padding-bottom: 20px;
+  justify-content: space-around;
+  align-items: flex-end;
+  background-image: url('../img/mario-map.png');
+  background-repeat: repeat-x;
+  background-position: 0px 0px;
+}
+
+.mario-map::before {
+  border: 1px solid #fff;
+  width: 23px;
+  height: 18px;
+  display: inline-block;
+  content: '';
+  animation: run 2s infinite alternate ease-in-out;
+  background-image: url('../img/gumba.png');
+}
+
+@keyframes run {
+  from {transform: translateX(-30px)}
+  to   {transform: translateX(30px)}
+}
+
+.mario-map::after {
+  border: 1px solid #fff;
+  width: 23px;
+  height: 18px;
+  display: inline-block;
+  content: '';
+  animation: jump .5s infinite alternate;
+  background-image: url('../img/gumba.png');
+}
+
+@keyframes jump {
+  from {transform: translateY(0px)}
+  to   {transform: translateY(-30px)}
+}
+
+.lari-credits {
+  align-items: center;
   background-color: secondary-color;
+  color: text-color;
+  display: flex;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
   height: 40px;
+  justify-content: center
+  width: 100%;
+}
+
+.lari-credits--heart {
+  margin: 0 15px;
+  width: 10px;
+  height: 10px;
+  background-color: highlight-color;
+  position: relative;
+  display: inline-block;
+  animation: pulse .5s infinite alternate ease-in;
+}
+
+.lari-credits--heart:before {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: highlight-color;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  content: "";
+}
+
+.lari-credits--heart:after {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: highlight-color;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  content: "";
+}
+
+@keyframes pulse {
+  from {transform: rotate(-135deg) scale(1);}
+  to   {transform: rotate(-135deg) scale(1.2);}
 }

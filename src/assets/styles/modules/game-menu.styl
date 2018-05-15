@@ -1,0 +1,46 @@
+.lari-game-menu {
+  font-family: 'Press Start 2P', cursive;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 100px;
+  padding-left: 0;
+  width: 200px;
+}
+
+.lari-game-menu__item {
+  list-style: none;
+  text-align: left;
+}
+
+.lari-game-menu__item__link {
+  box-sizing: border-box;
+  color: highlight-color;
+  display: inline-block;
+  font-family: 'Press Start 2P', cursive;
+  padding: 4px 0;
+  padding-left: 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.lari-game-menu__item__link:hover {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='#e1e1e1  ' width='20' height='20' viewBox='0 0 24 24'><path d='M21 12l-18 12v-24z'/></svg>");
+  background-position: 2px 2px;
+  background-repeat: no-repeat;
+  color: text-color;
+  cursor: pointer;
+}
+
+.lari-game-menu__item__link:focus {
+  outline: 2px dashed text-color;
+}
+
+.lari-game-menu__item__link:active {
+  background-color: highlight-color;
+  color: secondary-color;
+}
+
+.lari-game-menu__item__link--active {
+  color: secondary-color;
+}

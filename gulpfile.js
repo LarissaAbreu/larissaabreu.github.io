@@ -11,7 +11,7 @@ const ghPages = require('gulp-gh-pages');
 
 gulp.task('pug', () => {
   gulp.src('./src/*.pug')
-      .pipe(data(() => require('./projects.json')))
+      .pipe(data(() => require('./talks.json')))
       .pipe(pug())
       .pipe(gulp.dest('./out'))
       .pipe(connect.reload());
