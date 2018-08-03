@@ -1,5 +1,29 @@
 {
   "talks":[
+		{
+      "event": "JSSP #14 + NerdGirls + WomakersCode",
+      "name": "Universos paralelos com JS",
+      "attendance": "≈ 30",
+      "local": "Mercado Livre - São Paulo - SP",
+      "date": "Jun 21 2018",
+      "slides": "http://bit.ly/universos-paralelos-com-js"
+		},
+		{
+      "event": "JS day RJ",
+      "name": "Frontenders e o teste filosofal - RJ",
+      "attendance": "≈ 100",
+      "local": "Oito - Espaço Oi Futuro - Rio de Janeiro - RJ",
+      "date": "Jun 9 2018",
+      "slides": "http://bit.ly/teste-filosofal-rj"
+		},
+		{
+      "event": "MeetupCSS-SP #26",
+      "name": "CSS e as relíquias da morte - Parte 1 e Parte 2",
+      "attendance": "≈ 50",
+      "local": "FCamara - São Paulo - SP",
+      "date": "Mai 24 2018",
+      "video": "https://www.youtube.com/watch?v=a0PI3WGi7X4"
+    },
     {
       "event": "Front in Campinas",
       "name": "A magia dos componentes nativos independente de frameworks",
