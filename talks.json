@@ -1,6 +1,14 @@
 {
   "talks":[
 		{
+      "event": "Front in Vale",
+      "name": "Componentes nativos: uma chance de mudar o futuro!",
+      "attendance": "≈ 400",
+      "local": "Teatro UNIVAP - São José dos Campos - SP",
+      "date": "Ago 11 2018",
+      "slides": "http://bit.ly/componentes-nativos-uma-chance-de-mudar-o-futuro"
+    },
+    {
       "event": "JSSP #14 + NerdGirls + WomakersCode",
       "name": "Universos paralelos com JS",
       "attendance": "≈ 30",
