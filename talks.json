@@ -1,5 +1,13 @@
 {
   "talks":[
+    {
+      "event": "NerdGirlz #7 - As Possibilidades Do Front-End",
+      "name": "Dando poder ao seu CSS através de Custom Properties",
+      "attendance": "≈ 40",
+      "local": "FCamara - São Paulo - SP",
+      "date": "Sep 6 2018",
+      "slides": "http://bit.ly/custom-properties-css"
+    },
 		{
       "event": "Front in Vale",
       "name": "Componentes nativos: uma chance de mudar o futuro!",
@@ -9,7 +17,7 @@
       "slides": "http://bit.ly/componentes-nativos-uma-chance-de-mudar-o-futuro"
     },
     {
-      "event": "JSSP #14 + NerdGirls + WomakersCode",
+      "event": "JSSP #14 + NerdGirlz + WomakersCode",
       "name": "Universos paralelos com JS",
       "attendance": "≈ 30",
       "local": "Mercado Livre - São Paulo - SP",
