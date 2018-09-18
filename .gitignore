@@ -8,3 +8,5 @@ Desktop.ini
 node_modules/
 npm-debug.log
 .publish/
+
+package-lock.json

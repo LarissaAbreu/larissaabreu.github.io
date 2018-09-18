@@ -29,7 +29,6 @@ body {
   width: 100%;
 }
 .talks-list {
-  border: 0 dashed #fff;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -40,7 +39,6 @@ body {
   text-align: center;
 }
 .talk {
-  border: 0 dashed #fff;
   display: flex;
   flex-wrap: wrap;
   margin: 30px 5px;
@@ -75,6 +73,54 @@ body {
   margin: 10px 0 25px 0;
   width: 100%;
 }
+.articles {
+  width: 100%;
+}
+.articles-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.articles-list .heading-lv1 {
+  margin: 10px;
+  text-align: center;
+}
+.article {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px 10px;
+  position: relative;
+  width: calc(100% - 10px);
+}
+@media (max-width: 500px) {
+  .article {
+    width: 100%;
+  }
+}
+.article-link {
+  text-decoration: none;
+  padding: 16px 0;
+}
+.article-name {
+  color: #ff0c6d;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0;
+  line-height: 24px;
+}
+.article-link:hover > .article-name {
+  color: #e1e1e1;
+}
+.article-link:focus {
+  outline: 2px dashed #e1e1e1;
+}
+.article-details {
+  color: #e1e1e1;
+  margin: 10px 0 25px 0;
+  width: 100%;
+}
 .heading-lv1 {
   color: #fff;
   font-family: 'Karmatic', cursive;
@@ -101,7 +147,6 @@ body {
   height: 100%;
 }
 .container {
-  border: 0 dashed #fff;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
@@ -176,7 +221,6 @@ body {
 .mario-map::before {
   animation: run 2s infinite alternate ease-in-out;
   background-image: url("../img/gumba.png");
-  border: 0 dashed #fff;
   content: '';
   display: inline-block;
   height: 18px;
@@ -185,7 +229,6 @@ body {
 .mario-map::after {
   animation: jump 0.5s infinite alternate;
   background-image: url("../img/gumba.png");
-  border: 0 dashed #fff;
   content: '';
   display: inline-block;
   height: 18px;
@@ -333,7 +376,7 @@ body {
 }
 .lari-btn {
   background-color: #414141;
-  border: 0 dashed #fff;
+  border: 0;
   box-shadow: 4px 4px #ff0c6d;
   color: #e1e1e1;
   display: inline-block;

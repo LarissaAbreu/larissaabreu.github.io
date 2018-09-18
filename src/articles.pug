@@ -1,0 +1,14 @@
+extends ./layouts/default.pug
+
+block content
+  div.container
+    div.articles
+      section.articles-list
+        h1.heading-lv1 Articles
+
+        for article in articles
+          article.article
+            a(href=article.link target="_blank" class="article-link")
+              h2.article-name=article.name
+            p.article-details
+              |Available on #{span=article.local}
