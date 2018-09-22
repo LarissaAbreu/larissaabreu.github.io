@@ -1,6 +1,14 @@
 {
   "talks":[
     {
+      "event": "ABCDev 2018",
+      "name": "Componentes nativos: uma chance de mudar o futuro!",
+      "attendance": "≈ 40",
+      "local": "Via Varejo - São Caetano do Sul - SP",
+      "date": "Sep 22 2018",
+      "slides": "http://bit.ly/2O89J8M"
+    },
+    {
       "event": "NerdGirlz #7 - As Possibilidades Do Front-End",
       "name": "Dando poder ao seu CSS através de Custom Properties",
       "attendance": "≈ 40",
