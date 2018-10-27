@@ -1,6 +1,14 @@
 {
   "talks":[
     {
+      "event": "BrazilJS on the Road - BH",
+      "name": "Web components: fazendo do futuro uma realidade através do JS",
+      "attendance": "≈ 40",
+      "local": "Samba Tech - Santa Lúcia - Belo Borizonte",
+      "date": "Oct 27 2018",
+      "slides": "http://bit.ly/2PYuC3N"
+    },
+    {
       "event": "ABCDev 2018",
       "name": "Componentes nativos: uma chance de mudar o futuro!",
       "attendance": "≈ 40",
