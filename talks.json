@@ -1,10 +1,18 @@
 {
   "talks":[
     {
+      "event": "BrazilJS on the Road - Brasília",
+      "name": "Web components: fazendo do futuro uma realidade através do JS",
+      "attendance": "≈ 240",
+      "local": "Casa Thomas Jefferson - Asa Norte - Brasília - DF",
+      "date": "Nov 17 2018",
+      "slides": "http://bit.ly/2qTfsls"
+    },
+    {
       "event": "BrazilJS on the Road - BH",
       "name": "Web components: fazendo do futuro uma realidade através do JS",
       "attendance": "≈ 40",
-      "local": "Samba Tech - Santa Lúcia - Belo Borizonte",
+      "local": "Samba Tech - Santa Lúcia - Belo Borizonte - MG",
       "date": "Oct 27 2018",
       "slides": "http://bit.ly/2PYuC3N"
     },
