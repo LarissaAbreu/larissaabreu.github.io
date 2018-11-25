@@ -1,6 +1,14 @@
 {
   "talks":[
     {
+      "event": "BrazilJS on the Road - Joinville",
+      "name": "JavaScript e o teste filosofal",
+      "attendance": "≈ 50",
+      "local": "Conta Azul - Distrito Industrial - Joinville - SC",
+      "date": "Nov 24 2018",
+      "slides": "http://bit.ly/2TBPNe6"
+    },
+    {
       "event": "BrazilJS on the Road - Brasília",
       "name": "Web components: fazendo do futuro uma realidade através do JS",
       "attendance": "≈ 240",
