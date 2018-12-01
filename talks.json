@@ -1,6 +1,14 @@
 {
   "talks":[
     {
+      "event": "Front In Floripa",
+      "name": "Guia prático para a criação de componentes perfeitos",
+      "attendance": "≈ 250",
+      "local": "Hotel Maria do Mar - Florianópolis - SC",
+      "date": "Dec 01 2018",
+      "slides": "http://bit.ly/2rcwMC4"
+    },
+    {
       "event": "BrazilJS on the Road - Joinville",
       "name": "JavaScript e o teste filosofal",
       "attendance": "≈ 50",
