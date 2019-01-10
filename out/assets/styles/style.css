@@ -25,54 +25,6 @@ body {
   max-width: 200px;
   width: 100%;
 }
-.talks {
-  width: 100%;
-}
-.talks-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100%;
-}
-.talks-list .heading-lv1 {
-  margin: 10px;
-  text-align: center;
-}
-.talk {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 30px 5px;
-  padding: 10px;
-  padding-top: 20px;
-  position: relative;
-  width: calc(100% - 10px);
-}
-@media (max-width: 500px) {
-  .talk {
-    width: 100%;
-  }
-}
-.talk-event {
-  color: #ff0c6d;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 14px;
-  font-weight: 300;
-  margin: 0;
-}
-.talk-date {
-  color: #e1e1e1;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 9px;
-  margin-left: auto;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-.talk-details {
-  color: #e1e1e1;
-  margin: 10px 0 25px 0;
-  width: 100%;
-}
 .articles {
   width: 100%;
 }
@@ -410,6 +362,57 @@ body {
   background-position: 8px 6px;
   background-repeat: no-repeat;
   padding-left: 40px;
+}
+.talks {
+  width: 100%;
+}
+.talks-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.talks-list .heading-lv1 {
+  margin: 10px;
+  text-align: center;
+}
+.talk {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 5px;
+  padding: 10px;
+  padding-top: 20px;
+  position: relative;
+  width: calc(100% - 10px);
+}
+@media (max-width: 500px) {
+  .talk {
+    width: 100%;
+  }
+}
+.talk-event {
+  color: #ff0c6d;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0;
+}
+.talk-date {
+  color: #e1e1e1;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 9px;
+  margin-left: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.talk-details {
+  color: #e1e1e1;
+  margin: 10px 0 25px 0;
+  width: 100%;
+}
+.talk-video {
+  margin-left: 10px;
 }
 .lari-game-menu {
   font-family: 'Press Start 2P', cursive;
