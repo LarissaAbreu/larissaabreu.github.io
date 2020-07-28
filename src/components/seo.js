@@ -45,7 +45,7 @@ function SEO({ description, lang, meta, title, image }) {
         },
         {
           property: `og:title`,
-          content: title,
+          content: title + " | Larissa Abreu",
         },
         {
           property: `og:description`,
@@ -73,7 +73,7 @@ function SEO({ description, lang, meta, title, image }) {
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: title + " | Larissa Abreu",
         },
         {
           name: `twitter:description`,
