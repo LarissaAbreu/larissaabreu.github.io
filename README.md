@@ -2,72 +2,12 @@
 
 > Site para compartilhar talks, conteúdos e informações sobre mim :)
 
-[![Travis CI Status](https://travis-ci.org/LarissaAbreu/my-app.svg?branch=master)](https://travis-ci.org/LarissaAbreu/my-app)
-[![devDependencies Status](https://david-dm.org/LarissaAbreu/my-app/dev-status.svg)](https://david-dm.org/LarissaAbreu/my-app?type=dev)
-
 ## Stack
 
-- Automatizador de tarefas: [Gulp](http://gulpjs.com)
-- Ferramenta de template HTML: [Pug](https://pugjs.org/api/getting-started.html)
-- Pré-processador CSS: [Stylus](http://stylus-lang.com/)
-- JS Transpiler: [Babel](https://babeljs.io/)
-
-## Rodando o projeto localmente
-
-**1 -** Prepare o ambiente:
-
-```sh
-$ npm install -g gulp-cli
-```
-
-**2 -** Clone o projeto e installe as dependêcias:
-
-```sh
-$ git clone https://github.com/LarissaAbreu/my-app.git
-$ cd my-app
-$ npm install
-```
-
-**3 -** Rode o servidor estático com livereload:
-
-```sh
-$ gulp server
-```
-
-## Estrutura de pastas
-
-    .
-      ├── README.md
-      ├── LICENSE.md
-      ├── CONTRIBUTING.md
-      ├── out/
-      ├── src/
-      |   ├── icons/
-      |   ├── assets/
-      |   |   ├── img/
-      |   |   ├── scripts/
-      |   |   |   └── script.js
-      |   |   └── styles/
-      |   |       ├── modules/
-      |   |       └── style.styl
-      |   ├── partials/
-      |   |   ├── footer.pug
-      |   |   └── header.pug
-      |   ├── layouts/
-      |   |   └── default.pug
-      |   ├── projects.pug
-      |   └── index.pug
-      ├── gulpfile.js
-      ├── package.json
-      ├── projects.json
-      ├── .editorconfig
-      └── .gitignore
-
-## Tarefas automatizadas
-
-- `$ gulp build`: Compila, concatena e minifica todos os arquivos.
-- `$ gulp server`: Escuta os arquivos buildados e inicia um servidor estático.
-- `$ gulp deploy`: Faz um deploy para a branch master.
+- [Gatsby](https://www.gatsbyjs.org/)
+- [GraphQL](https://graphql.org/)
+- [Styled Components](https://styled-components.com/)
+- [Algolia Instant Search](https://www.algolia.com/products/instantsearch/)
 
 ## Versionamento
 
@@ -75,10 +15,10 @@ Para manter uma melhor organização, seguiremos as diretrizes do [Versionamento
 
 ## Contribuição
 
-Veja no [guia](https://github.com/LarissaAbreu/my-app/issues) os próximos passos do projeto ;)
+Veja no [guia](https://github.com/LarissaAbreu/larissaabreu.github.io/issues) os próximos passos do projeto ;)
 <br>
-Quer contrinuir? [Siga essas recomendações](https://github.com/LarissaAbreu/my-app/blob/master/CONTRIBUTING.md).
+Quer contribuir? [Siga essas recomendações](https://github.com/LarissaAbreu/larissaabreu.github.io/blob/master/CONTRIBUTING.md).
 
 ## Licença
 
-[Licença MIT](https://github.com/LarissaAbreu/my-app/blob/master/LICENSE.md) © [Larissa Abreu](http://larissaabreu.github.io/)
+[Licença MIT](https://github.com/LarissaAbreu/larissaabreu.github.io/blob/master/LICENSE.md) © [Larissa Abreu](http://larissaabreu.github.io/)

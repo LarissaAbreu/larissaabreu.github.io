@@ -1,36 +1,62 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
+  "name": "larissaabreu-site",
+  "private": true,
   "description": "> Site para compartilhar talks, conteúdos e informações sobre mim :)",
-  "main": "index.js",
+  "version": "0.1.0",
+  "author": "Larissa Abreu",
+  "dependencies": {
+    "algoliasearch": "^3.35.1",
+    "dotenv": "^8.2.0",
+    "gatsby": "^2.15.7",
+    "gatsby-image": "^2.2.17",
+    "gatsby-plugin-algolia-search": "^0.5.6",
+    "gatsby-plugin-manifest": "^2.2.33",
+    "gatsby-plugin-offline": "^2.2.10",
+    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
+    "gatsby-plugin-react-helmet": "^3.1.6",
+    "gatsby-plugin-sharp": "^2.2.19",
+    "gatsby-plugin-sitemap": "^2.2.24",
+    "gatsby-plugin-styled-components": "^3.1.5",
+    "gatsby-plugin-transition-link": "^1.17.7",
+    "gatsby-remark-copy-linked-files": "^2.3.11",
+    "gatsby-remark-images": "^3.1.23",
+    "gatsby-remark-lazy-load": "^1.0.2",
+    "gatsby-remark-prismjs": "^3.3.14",
+    "gatsby-remark-relative-images": "^0.2.3",
+    "gatsby-source-filesystem": "^2.1.21",
+    "gatsby-transformer-remark": "^2.6.22",
+    "gatsby-transformer-sharp": "^2.2.13",
+    "gsap": "^3.0.4",
+    "lazysizes": "^5.1.1",
+    "prismjs": "^1.17.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-disqus-comments": "^1.4.0",
+    "react-dom": "^16.9.0",
+    "react-helmet": "^5.2.1",
+    "react-instantsearch-dom": "^6.0.0",
+    "styled-components": "^4.3.2",
+    "styled-icons": "^8.4.2",
+    "styled-media-query": "^2.1.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "prettier": "^1.18.2"
+  },
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LarissaAbreu/my-app.git"
+    "url": "https://github.com/LarissaAbreu/larissaabreu.github.io"
   },
-  "author": "Larissa Abreu",
-  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LarissaAbreu/my-app/issues"
-  },
-  "homepage": "https://github.com/LarissaAbreu/my-app#readme",
-  "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-preset-es2015": "^6.24.1",
-    "gulp": "^3.9.1",
-    "gulp-babel": "^7.0.1",
-    "gulp-connect": "^5.5.0",
-    "gulp-data": "^1.3.1",
-    "gulp-eslint": "^4.0.2",
-    "gulp-gh-pages": "^0.5.4",
-    "gulp-imagemin": "^4.1.0",
-    "gulp-pug": "^4.0.1",
-    "gulp-stylint": "^4.0.2",
-    "gulp-stylus": "^2.7.0"
-  },
-  "dependencies": {
-    "senna": "^2.5.4"
+    "url": "https://github.com/gatsbyjs/larissaabreu.github.io/issues"
   }
 }
