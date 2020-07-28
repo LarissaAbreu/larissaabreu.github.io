@@ -3,13 +3,12 @@ require('dotenv').config();
 const queries = require('./src/utils/algolia_queries');
 
 module.exports = {
-  pathPrefix: "/larissaabreu.github.io",
   siteMetadata: {
     title: `Larissa Abreu`,
     position: `Front-end Developer`,
     description: `Site com algumas talks minhas e alguns textos que fiz :)`,
     author: `@larissaabreu`,
-    siteUrl: `https://larissaabreu.github.io`,
+    siteUrl: `https://larissaabreu.dev`,
   },
   plugins: [
     `gatsby-plugin-sitemap`,
