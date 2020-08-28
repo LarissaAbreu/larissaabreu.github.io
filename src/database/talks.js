@@ -1,5 +1,13 @@
 ﻿const talks = [
   {
+    event: 'Curso Primeiros Passos em Front-End - By: WoMakersCode',
+    name: 'Defesa contra as artes das trevas - Github',
+    attendance: '60',
+    local: 'Online',
+    date: '27 de Agosto de 2020',
+    slides: 'https://speakerdeck.com/larissaabreu/defesa-contra-as-artes-das-trevas-github-2020'
+  },
+  {
     event: 'BrazilJS on the Road - Curitiba',
     name: 'Sempre teste mas debug se precisar',
     attendance: '150',
