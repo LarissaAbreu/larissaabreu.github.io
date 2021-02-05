@@ -12,7 +12,6 @@
     "gatsby-plugin-algolia-search": "^0.5.6",
     "gatsby-plugin-manifest": "^2.2.33",
     "gatsby-plugin-offline": "^2.2.10",
-    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
     "gatsby-plugin-react-helmet": "^3.1.6",
     "gatsby-plugin-sharp": "^2.2.19",
     "gatsby-plugin-sitemap": "^2.2.24",
@@ -50,7 +49,7 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "deploy": "gatsby build && gh-pages -d public -b main"
   },
   "repository": {
     "type": "git",

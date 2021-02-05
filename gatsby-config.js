@@ -23,17 +23,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Merienda One`,
-            variants: [`400`],
-          },
-        ],
-      },
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `uploads`,

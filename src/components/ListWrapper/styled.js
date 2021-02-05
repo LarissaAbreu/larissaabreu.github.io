@@ -10,14 +10,14 @@ export const ListWrapperContent = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
-  text-align: justify;
+  text-align: left;
   color: var(--texts);
   flex-direction: column;
 
   & h1 {
     font-size: 64px;
     margin: 35px 0;
-    font-family: 'Merienda One';
+    font-family: 'Merienda One', cursive;
   };
 
   & p {

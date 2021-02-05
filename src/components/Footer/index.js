@@ -1,5 +1,4 @@
 ﻿import React from 'react';
-import SocialLinks from '../SocialLinks';
 
 // import getThemeColor from '../../utils/getThemeColor';
 
@@ -11,7 +10,6 @@ const Footer = () => (
   <S.FooterWrapper>
     <S.FooterMain>
       <S.FooterGroup>
-        <SocialLinks />
         {/* <S.FooterLink
           to='/search/'
           title='Pesquisar'

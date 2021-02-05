@@ -1,4 +1,5 @@
 ﻿import styled from 'styled-components';
+import media from 'styled-media-query';
 
 export const HeaderWrapper = styled.header`
   border-bottom: 1px solid var(--bordersLight);
@@ -17,6 +18,18 @@ export const HeaderMain = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  ${media.lessThan("543px")`
+    flex-direction: column-reverse;
+  `}
+`;
+
+export const IconsRight = styled.div`
+  display: flex;
+
+  ${media.lessThan("543px")`
+    margin-bottom: 5px;
+  `}
 `;
 
 export const ChangeTheme = styled.span`
@@ -26,6 +39,7 @@ export const ChangeTheme = styled.span`
   height: 50px;
   width: 50px;
   padding: 10px;
+  border-left: 1px dashed var(--texts);
 
   &.light {
     color: #b38500;

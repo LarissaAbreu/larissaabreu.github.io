@@ -10,7 +10,7 @@ export const PostWrapper = styled.div`
 export const PostHeader = styled.div`
   color: var(--postColor);
   padding: 30px 0;
-  text-align: justify;
+  text-align: left;
 `;
 
 export const PostTitle = styled.h1`
@@ -213,4 +213,8 @@ export const MainContent = styled.section`
       opacity: 0.8;
     };
   };
+
+  pre {
+    border-radius: 5px;
+  }
 `;

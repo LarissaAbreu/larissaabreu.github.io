@@ -78,6 +78,7 @@ const GlobalStyles = createGlobalStyle`
     --bordersLight: rgba(216, 238, 225, .2);
     --texts: #eff8f3;
     --postColor: #eff8f3;
+    --color-shadow: rgba(239, 248, 243, .14);
     --highlight: #35A0B1;
     --mediumBackground: #1C1C1C;
     --background: #292929;
@@ -86,8 +87,9 @@ const GlobalStyles = createGlobalStyle`
   body.light {
     --borders: #35A0B1;
     --bordersLight: #35A0B1;
-    --postColor: #1C1C1C;
     --texts: #1C1C1C;
+    --postColor: #1C1C1C;
+    --color-shadow: rgba(28, 28, 28, .14);
     --highlight: #35A0B1;
     --mediumBackground: #D8EEE1;
     --background: #EFF8F3;

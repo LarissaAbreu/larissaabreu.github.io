@@ -25,6 +25,12 @@ export const PostItemWrapper = styled.article`
   padding: 30px 20px;
   width: 100%;
   margin: 18px 0;
+
+  &:hover {
+    box-shadow: 0 2px 14px 0 var(--color-shadow),
+                0 1px 10px 0 var(--color-shadow),
+                0 3px 2px -2px var(--color-shadow);
+  };
 `;
 
 export const PostItemInfo = styled.div`

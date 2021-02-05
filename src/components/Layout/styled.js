@@ -8,7 +8,7 @@ export const LayoutWrapper = styled.div`
 `;
 
 export const LayoutMain = styled.main`
-  min-height: 100vh;
+  min-height: calc(100vh - 189px);
   transition: background, color 0.5s;
   width: 100%;
   max-width: 900px;
@@ -18,5 +18,6 @@ export const LayoutMain = styled.main`
 
   ${media.lessThan("large")`
     padding: 0 10px;
+    margin-top: 130px;
   `}
 `;

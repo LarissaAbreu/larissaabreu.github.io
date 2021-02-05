@@ -5,13 +5,9 @@ export const FooterWrapper = styled.footer`
   align-items: center;
   background: var(--mediumBackground);
   border-top: 1px solid var(--bordersLight);
-  padding: 10px;
-  position: fixed;
-  right: 0;
-  bottom: 0;
+  padding: 16px;
   width: 100%;
   transition: background 0.5s;
-  z-index: 999;
 `;
 
 export const FooterMain = styled.div`
@@ -19,7 +15,7 @@ export const FooterMain = styled.div`
   max-width: 1080px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 `;
 
