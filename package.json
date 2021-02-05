@@ -26,7 +26,7 @@
     "gatsby-source-filesystem": "^2.1.21",
     "gatsby-transformer-remark": "^2.6.22",
     "gatsby-transformer-sharp": "^2.2.13",
-    "gsap": "^3.0.4",
+    "gsap": "^3.6.0",
     "lazysizes": "^5.2.1",
     "prismjs": "^1.21.0",
     "prop-types": "^15.7.2",
