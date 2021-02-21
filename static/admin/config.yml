@@ -1,0 +1,54 @@
+﻿backend:
+  name: github
+  repo: LarissaAbreu/larissaabreu.github.io
+  branch: development
+  site_domain: kind-yalow-0daaa7.netlify.com
+
+publish_mode: editorial_workflow
+media_folder: "static/assets/img"
+public_folder: "assets/img"
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {
+        label: "Title",
+        name: "title",
+        widget: "string"
+      }
+      - {
+        label: "Description",
+        name: "description",
+        widget: "string"
+      }
+      - {
+        label: "Category",
+        name: "category",
+        widget: "select",
+        multiple: true,
+        min: 1,
+        options: [
+          "polymer",
+          "web components",
+          "js",
+          "html",
+          "css",
+          "litElelent",
+          "comunidade",
+        ]
+      }
+      - {
+        label: "Date",
+        name: "date",
+        widget: "datetime",
+        format: 'YYYY-MM-DD'
+      }
+      - {
+        label: "Body",
+        name: "body",
+        widget: "markdown"
+      }
