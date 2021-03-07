@@ -1,9 +1,6 @@
 ---
 date: 2018-05-16T00:00:00-03:00
-category:
-- polymer
-- " web components"
-- js
+category: polymer, web components, js
 title: 'Bem-vindo ao Polymer 3 - #01'
 description: Criando o elemento <hello-world>
 
