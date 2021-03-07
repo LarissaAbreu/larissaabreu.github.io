@@ -14,12 +14,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v1
-    
     - name: Install the dependencies
     - run: npm install
-    
     - name: Build
     - run: npm run build
-    
     - name: Deploy
     - run: npm run deploy
