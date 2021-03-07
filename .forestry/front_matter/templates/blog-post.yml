@@ -23,21 +23,6 @@ fields:
     required: true
   label: description
 - name: category
-  type: select
-  default: polymer
-  config:
-    required: true
-    options:
-    - polymer
-    - web components
-    - js
-    - html
-    - a11y
-    - css
-    - accessibility
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
+  type: tag_list
+  default: []
   label: category
