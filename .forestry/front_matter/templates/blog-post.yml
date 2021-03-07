@@ -1,4 +1,43 @@
 ---
 label: Blog post
 hide_body: false
-fields: []
+fields:
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: true
+    date_format: YYYY-MM-DD
+    time_format: 
+    display_utc: false
+  default: '2021-03-07T00:57:31-03:00'
+- name: title
+  type: text
+  config:
+    required: true
+  label: title
+- name: description
+  type: text
+  config:
+    required: true
+  label: description
+- name: category
+  type: select
+  default: polymer
+  config:
+    required: true
+    options:
+    - polymer
+    - web components
+    - js
+    - html
+    - a11y
+    - css
+    - accessibility
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: category
