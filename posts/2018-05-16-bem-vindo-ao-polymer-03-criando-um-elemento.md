@@ -1,20 +1,23 @@
-﻿---
-date: 2018-05-16
-title: "Bem-vindo ao Polymer 3 - #01"
-description: "Criando o elemento <hello-world>"
-category: polymer, web components, js
 ---
+date: 2018-05-16T00:00:00-03:00
+category:
+- polymer
+- " web components"
+- js
+title: 'Bem-vindo ao Polymer 3 - #01'
+description: Criando o elemento <hello-world>
 
+---
 ![Polymer 3 is here! Criando o elemento <hello-world>](/polymer3-01/capa-polymer-1.png)
 
 Fala galera. Esse ano (sim, só esse ano) eu conheci os Web Components (os famosos componentes nativos) e desde então me vi apaixonada! Assim como toda pessoa que está muito empolgada com algo decidi "espalhar a palavra" dos componentes nativos para todas as pessoas que estavam à minha volta. Com isso percebi que muitas pessoas não conheciam ou não sabiam do poder que tem os webcomponents e muitas pessoas vieram falar comigo para tirar várias dúvidas sobre o assunto. Foi aí que nasceu a ideia de criar uma série de curtos artigos com o básico para uma pessoa conseguir começar a brincar com esse universo e, aproveitando que foi lançado na última quarta-feira (09/05) durante o Google IO, vamos aprender a criar componentes nativos brincando com o [Polymer 3](https://www.polymer-project.org/) xD
 
 Antes de mais nada, é preciso que você tenha um background de algumas coisinhas, apenas para não ficar perdido rs aqui embaixo estão alguns links (que acho necessários) para você ter uma ideia do que vamos abordar nessa série.
 
-- O que são [Web Components](https://www.webcomponents.org/introduction)?
-- Gerenciadores de dependências no front-end ([NPM](https://www.npmjs.com/) / [Yarn](https://classic.yarnpkg.com/pt-BR/))
-- [Class](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Classes) e [ES Modules](https://medium.com/dev-channel/es6-modules-in-chrome-canary-m60-ba588dfb8ab7)
-- [Como o Polymer e as especificações de Web Components chegaram até aqui?](https://medium.com/@afonsopacifer/desmistificando-um-futuro-chamado-polymer-3-ae0476cf8c0a)
+* O que são [Web Components](https://www.webcomponents.org/introduction)?
+* Gerenciadores de dependências no front-end ([NPM](https://www.npmjs.com/) / [Yarn](https://classic.yarnpkg.com/pt-BR/))
+* [Class](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Classes) e [ES Modules](https://medium.com/dev-channel/es6-modules-in-chrome-canary-m60-ba588dfb8ab7)
+* [Como o Polymer e as especificações de Web Components chegaram até aqui?](https://medium.com/@afonsopacifer/desmistificando-um-futuro-chamado-polymer-3-ae0476cf8c0a)
 
 Beleza, agora com o devido background podemos começar a nos divertir! Chegou a hora de fazermos nosso componente nativo de "Hello World!" :D
 

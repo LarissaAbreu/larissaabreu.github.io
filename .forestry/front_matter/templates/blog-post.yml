@@ -26,3 +26,5 @@ fields:
   type: tag_list
   default: []
   label: category
+pages:
+- posts/2018-05-16-bem-vindo-ao-polymer-03-criando-um-elemento.md
