@@ -1,27 +1,11 @@
 ﻿import React from 'react';
 
-// import getThemeColor from '../../utils/getThemeColor';
-
-// import { SearchAlt2 as Search } from 'styled-icons/boxicons-regular/SearchAlt2';
-
 import * as S from './styled';
 
 const Footer = () => (
   <S.FooterWrapper>
     <S.FooterMain>
       <S.FooterGroup>
-        {/* <S.FooterLink
-          to='/search/'
-          title='Pesquisar'
-          cover
-          direction="right"
-          bg={getThemeColor()}
-          duration={0.6}
-        >
-          <S.FooterItem>
-            <Search />
-          </S.FooterItem>
-        </S.FooterLink> */}
       </S.FooterGroup>
       <S.FooterGroup>
         <S.FooterItem>

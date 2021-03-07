@@ -7,7 +7,6 @@
 - [Gatsby](https://www.gatsbyjs.org/)
 - [GraphQL](https://graphql.org/)
 - [Styled Components](https://styled-components.com/)
-- [Algolia Instant Search](https://www.algolia.com/products/instantsearch/)
 
 ## Versionamento
 
