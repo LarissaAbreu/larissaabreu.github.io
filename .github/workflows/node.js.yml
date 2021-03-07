@@ -16,4 +16,9 @@ jobs:
     - uses: actions/setup-node@v1
     - run: yarn
     - run: yarn build
-    - run: yarn deploy
+    
+    - name: Deploy 
+      uses: JamesIves/github-pages-deploy-action@4.1.0
+      with:
+        branch: main
+        folder: public
