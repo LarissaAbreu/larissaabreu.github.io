@@ -1,10 +1,10 @@
-﻿---
-date: 2018-05-27
-title: "Bem-vindo ao Polymer 3 - #02"
-description: "Adicionando filhos com <slot>"
-category: polymer, web components, js
 ---
+date: 2018-05-27
+title: 'Bem-vindo ao Polymer 3 - #02'
+description: Adicionando filhos com <slot>
+category: polymer, web components, js
 
+---
 ![Polymer 3 is here! Adicionando filhos com a tag <slot>](/polymer3-02/capa-polymer-2.png)
 
 Fala galera, beleza? [No primeiro post dessa série](https://larissaabreu.dev/bem-vindo-ao-polymer-03-adicionando-filhos/) nós vimos como criar um web component de Hello World onde ao utilizarmos a nossa tag `<hello-world>` já era renderizado um h1 com a nossa saudação.
@@ -152,9 +152,9 @@ Ao renderizar minha página eu vou encontrar o seguinte resultado:
 
 Perceberam que **mesmo eu não declarando o slot nomeado ele apareceu** ali onde deveria? Isso por causa do fallback que atribuí a ele lá no meu componente.
 
->Se eu passasse na minha página HTML um conteúdo para o slot "header" esse conteúdo substituiria o meu valor de fallback :)
+> Se eu passasse na minha página HTML um conteúdo para o slot "header" esse conteúdo substituiria o meu valor de fallback :)
 
->Só é possível passar um valor de fallback para slots nomeados, lembre sempre disso xD
+> Só é possível passar um valor de fallback para slots nomeados, lembre sempre disso xD
 
 ## Conclusão
 
