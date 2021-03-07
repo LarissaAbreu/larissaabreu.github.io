@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: ''
-webhook_url:
+webhook_url: 
 sections:
 - type: document
   path: posts
@@ -12,7 +12,7 @@ sections:
   label: Posts
   create: documents
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 upload_dir: static/assets/img
 public_path: "/assets/img"
 front_matter_path: ''
