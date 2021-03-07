@@ -5,7 +5,7 @@ description: Estou testando o CMS Forestry
 category: cms
 
 ---
-![](/assets/img/polymer3-03/capa-polymer-3.png)
+![Teste de alt da imagem](/assets/img/polymer3-03/capa-polymer-3.png)
 
 ## Testando aqui o novo CMS
 
