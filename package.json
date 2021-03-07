@@ -27,7 +27,7 @@
     "gatsby-transformer-sharp": "^2.2.13",
     "gsap": "^3.6.0",
     "lazysizes": "^5.2.1",
-    "prismjs": "^1.21.0",
+    "prismjs": "^1.23.0",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-disqus-comments": "^1.4.0",
