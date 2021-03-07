@@ -1,10 +1,10 @@
-﻿---
-date: 2018-07-05
-title: "Bem-vindo ao Polymer 3 - #03"
-description: "Definindo propriedades"
-category: polymer, web components, js
 ---
+date: 2018-07-05
+title: 'Bem-vindo ao Polymer 3 - #03'
+description: Definindo propriedades
+category: polymer, web components, js
 
+---
 ![Polymer 3 is here! Definindo propriedades](/polymer3-03/capa-polymer-3.png)
 
 E aí pessoal, tudo bem com vocês? No terceiro post dessa série, venho falar um pouco sobre como podemos **trabalhar com** as queridas **propriedades** nos nossos **web components**.
