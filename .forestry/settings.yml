@@ -10,8 +10,9 @@ sections:
 - type: directory
   path: posts
   label: Posts
-  create: none
+  create: documents
   match: "**/*"
+  new_doc_ext: ".md"
 upload_dir: static/assets/img
 public_path: "/assets/img"
 front_matter_path: ''
