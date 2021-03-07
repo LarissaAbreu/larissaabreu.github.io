@@ -18,9 +18,14 @@ front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
 build:
+  preview_env:
+  - GATSBY_ALGOLIA_APP_ID=G3UJX1BWBJ
+  - GATSBY_ALGOLIA_SEARCH_KEY=a3f975f56a3b44a862bf46fedda40b29
+  - ALGOLIA_ADMIN_KEY=26505df28860b2e59ac7db7ebef3f67f
+  - GATSBY_ALGOLIA_INDEX_NAME=Posts
   preview_output_directory: public
-  install_dependencies_command: npm install
+  install_dependencies_command: yarn
   preview_docker_image: forestryio/node:12
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: npm run develop
+  instant_preview_command: yarn start
