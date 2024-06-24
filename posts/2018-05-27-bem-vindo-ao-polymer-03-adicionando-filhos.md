@@ -9,11 +9,11 @@ category: polymer, web components, js
 
 Fala galera, beleza? [No primeiro post dessa série](https://larissaabreu.dev/bem-vindo-ao-polymer-03-adicionando-filhos/) nós vimos como criar um web component de Hello World onde ao utilizarmos a nossa tag `<hello-world>` já era renderizado um h1 com a nossa saudação.
 
-Tudo muito lindo, muito maravilho, mas vocês devem ter se perguntado "Okay, e se eu não quiser que meu elemento renderize algo pré-definido? E se eu quiser definir o conteúdo que vai dentro do meu componente de acordo com o lugar onde vou utilizá-lo? E se eu quisesse utilizar um componente dentro do outro?". É por isso que o segundo artigo dessa série vai abordar exatamente esses pontos. Lhes apresento a tag `<slot>`, [confira mais sobre essa tag aqui](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot)!
+Tudo muito lindo, muito maravilho, mas vocês devem ter se perguntado "Okay, e se eu não quiser que meu elemento renderize algo pré-definido? E se eu quiser definir o conteúdo que vai dentro do meu componente de acordo com o lugar onde vou utilizá-lo? E se eu quisesse utilizar um componente dentro do outro?". É por isso que o segundo artigo dessa série vai abordar exatamente esses pontos. Lhes apresento a tag `<slot>`, [confira mais sobre a tag slot aqui](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot)!
 
 > O `<slot>` é um espaço reservado dentro de um web component onde você pode preencher com sua própria marcação HTML.
 
-## Criando nosso elemento com <slot>
+## Criando nosso elemento com `<slot>`
 
 ```js
 import { html, PolymerElement } from '@polymer/polymer/polymer-element.js';
