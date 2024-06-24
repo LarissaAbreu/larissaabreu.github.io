@@ -148,11 +148,11 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
       />
     </span></p>
 <p>Fala galera, beleza? <a href="https://larissaabreu.dev/bem-vindo-ao-polymer-03-adicionando-filhos/">No primeiro post dessa série</a> nós vimos como criar um web component de Hello World onde ao utilizarmos a nossa tag <code class="language-text">&lt;hello-world></code> já era renderizado um h1 com a nossa saudação.</p>
-<p>Tudo muito lindo, muito maravilho, mas vocês devem ter se perguntado "Okay, e se eu não quiser que meu elemento renderize algo pré-definido? E se eu quiser definir o conteúdo que vai dentro do meu componente de acordo com o lugar onde vou utilizá-lo? E se eu quisesse utilizar um componente dentro do outro?". É por isso que o segundo artigo dessa série vai abordar exatamente esses pontos. Lhes apresento a tag <code class="language-text">&lt;slot></code>, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot">confira mais sobre essa tag aqui</a>!</p>
+<p>Tudo muito lindo, muito maravilho, mas vocês devem ter se perguntado "Okay, e se eu não quiser que meu elemento renderize algo pré-definido? E se eu quiser definir o conteúdo que vai dentro do meu componente de acordo com o lugar onde vou utilizá-lo? E se eu quisesse utilizar um componente dentro do outro?". É por isso que o segundo artigo dessa série vai abordar exatamente esses pontos. Lhes apresento a tag <code class="language-text">&lt;slot></code>, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot">confira mais sobre a tag slot aqui</a>!</p>
 <blockquote>
 <p>O <code class="language-text">&lt;slot></code> é um espaço reservado dentro de um web component onde você pode preencher com sua própria marcação HTML.</p>
 </blockquote>
-<h2>Criando nosso elemento com <slot></h2>
+<h2>Criando nosso elemento com <code class="language-text">&lt;slot></code></h2>
 <div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">import</span> <span class="token punctuation">{</span> html<span class="token punctuation">,</span> PolymerElement <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@polymer/polymer/polymer-element.js'</span><span class="token punctuation">;</span>
 
 <span class="token keyword">class</span> <span class="token class-name">MyElement</span> <span class="token keyword">extends</span> <span class="token class-name">PolymerElement</span> <span class="token punctuation">{</span>
